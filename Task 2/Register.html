@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="inner-box">
+        <div class="card-front">
+           <h2 class="regis">REGISTER</h2>
+          <form action="./index.html">
+            <label>First Name</label>
+            <input type="text" class="input-box" placeholder="Enter your first name" required>
+            <label> Last Name</label>
+            <input type="text" class="input-box" placeholder="Your last name" required>
+
+            <label>Email</label>
+            <input type="email" class="input-box" placeholder="your email Id" required>
+            <label> Phone number</label>
+            <input type="text" class="input-box" placeholder="Enter your phone number">
+
+
+            <label for="Gender"> Choose gender:</label>
+            <select name="Gender" id="gender">
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+            </select> <br
+
+            <label for="Favorite color"> Choose Favorite color</label>
+            <input type="color" id="favcolor" name="Favcolor" value="#ff0000">
+            <br <label>Date of birth</label>
+            <input type="date" id="birthday">
+
+            <button type="submit" class="submit-btn"> Submit</button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
