@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+body{
+  background:  hsl(0, 0%, 95%);
+}
+.all-column {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+  width:1440px;
+  height: 500px;
+  margin-top: 50px;
+  justify-content: center;
+  
+}
+.col1 {
+  background: hsl(31, 77%, 52%);
+  font-size: 15px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+   padding: 30px;
+  
+}
+.text1{
+color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+}
+.col2{
+    background: hsl(184, 100%, 22%);
+  font-size: 15px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+   padding: 30px;
+
+}
+.text2{
+color: hsla(0, 0%, 100%, 0.75);
+}
+.col3{
+ background: hsl(179, 100%, 13%);
+  font-size: 15px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+   padding: 30px;
+}
+.text3{
+color: hsla(0, 0%, 100%, 0.75);
+}
+.btn{
+  
+  color: hsl(0, 0%, 95%);
+  padding: 10px;
+  width: 120px;
+  border-radius: 20px;
+  border-color: hsl(0, 0%, 95%) ;
+  cursor:pointer;
+  
+}
+#btn1{
+  background-color: hsl(31, 77%, 52%);
+  color:  hsl(0, 0%, 95%);
+  
+}
+#btn2{
+   background-color:hsl(184, 100%, 22%);
+  color:  hsl(0, 0%, 95%);
+}
+#btn3{
+   background-color:hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+  
+.brand{
+ color:  hsl(0, 0%, 95%)  ;
+ font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  
+}
+
+  
+.gridlink{
+   color: #121212;
+  text-decoration: none;
+  font-size:40px;
+  margin: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+a:hover{
+  color: crimson;
+}
+
+@media only screen and (max-width: 600px) {
+  
+.all-column{
+  width: 375px;
+  height:250px;
+}
+  .col1 {
+  background: hsl(31, 77%, 52%);
+  font-size: 7px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+   padding: 10px;
+  
+}
+  .col2{
+    background: hsl(184, 100%, 22%);
+  font-size: 7px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+   padding: 10px;
+
+}
+
+.col3{
+ background: hsl(179, 100%, 13%);
+  font-size: 7px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+   padding: 10px;
+}
+.btn{
+  padding: 5px;
+  width: 80px;
+  border-radius: 10px;
+  
+}
+  .gridlink{
+  font-size:20px;
+}
+  
+}
